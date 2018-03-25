@@ -1,0 +1,22 @@
+{
+  "name": "b9lab.exercise.rockpaperscissors",
+  "version": "0.0.1",
+  "description": "RockPaperScissors implementation in a smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihai-dev-ro/b9lab.exercise.rockpaperscissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihai-dev-ro/b9lab.exercise.rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/mihai-dev-ro/b9lab.exercise.rockpaperscissors#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
+}
