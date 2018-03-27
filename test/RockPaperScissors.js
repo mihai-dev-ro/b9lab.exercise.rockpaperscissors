@@ -245,7 +245,7 @@ contract("RockPaperScissors", (accounts) => {
         });        
     });
 
-    define("rewarding the winner(s)", () => {
+    describe("rewarding the winner(s)", () => {
         let wagerAmount = 100;
         let blockDuration = 100;
         let alice = accounts[1];
@@ -300,7 +300,7 @@ contract("RockPaperScissors", (accounts) => {
         });
     });
 
-    define("refunding", () => {
+    describe("refunding", () => {
         let wagerAmount = 100;
         let blockDuration = 100;
         let alice = accounts[1];
@@ -337,5 +337,9 @@ contract("RockPaperScissors", (accounts) => {
             "in due time", () => {
 
         });
+    });
+
+    define("should allow to play with wager equal to 0", () => {
+        
     });
 });
